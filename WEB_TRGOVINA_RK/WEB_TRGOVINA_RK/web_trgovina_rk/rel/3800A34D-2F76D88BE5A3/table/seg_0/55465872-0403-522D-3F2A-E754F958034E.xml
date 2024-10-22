@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55465872-0403-522D-3F2A-E754F958034E" name="FUNKCIJE_ZAPOSLENIKA">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>69B0FDE5-8F3D-D227-BFFE-5303FFACB7C1</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Funkcija_zaposlenika" id="63C7680E-E382-C5DB-2B17-7EEDE789BBA4">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>3CA2DA05-9689-C106-C8A7-25041D2B6A2D</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>FUNKCIJA_ZAPOSLENIKA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>FUNKCIJA_ZAPOSLENIKA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_funkcije" id="A4A8917C-9810-E96F-693D-59B9D39F5071">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>7823BBE8-8F78-20E1-481C-0DC0CD8A0B45</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Od_kad" id="23FEE3CB-C02E-F9BB-C8BB-04BBD0A7D499">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>B1476FDA-C36F-8822-2741-774FC3AAEFF8</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Do_kad" id="CC4207BB-DB95-C452-1DB7-829EAE5E2898">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>5ADAFDC1-00CF-8FA5-D786-70F00E92E592</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="001CA711-9241-431F-6E02-A048E4D62C0E" name="FUNKCIJE_ZAPOSLENIKA_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>5E241038-B347-F7D2-176B-A7106F79B0D5</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63C7680E-E382-C5DB-2B17-7EEDE789BBA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

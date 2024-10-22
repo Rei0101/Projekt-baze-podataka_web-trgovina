@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D70F07F4-B3A5-E824-70C2-55C822ECB2A9" name="DRŽAVE">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>55757F90-DA66-224E-A3AC-1D63781DF99A</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<ordsAlias>drzave</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Države" id="A9C5B50D-82F3-D80E-B316-1D1B95CE7696">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>CA60FF01-FEB3-B7C4-32DF-86722D5C3A0C</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>DRZAVA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>DRZAVA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_države" id="4DFD6945-AF0C-D7FD-A0F1-2459693956AD">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>319DC9A9-1D61-82D0-45F0-F54A2B296D2D</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16E930C9-E8F8-7A81-A549-9A2385FAFD07" name="DRŽAVE_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>FE5C77ED-26FA-F5A1-111E-57CAB59D6CDC</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9C5B50D-82F3-D80E-B316-1D1B95CE7696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="631DB928-1710-9917-DBC4-89C825686119" name="KATEGORIJE">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>96E6BCFA-5058-20C5-DD3B-80962FA57663</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kategorije" id="EEEB0B04-CB0F-7D6F-AA18-556DD78D03FA">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>13D1470F-F001-EFF3-B3C3-BE54390541D1</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KATEGORIJE_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KATEGORIJE_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_kategorije" id="7B948935-4ECF-3E69-FDAB-FF0C9F013D08">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>154B0C96-DEBF-72EB-AFFF-321A52F71802</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDEFE1F9-7039-1AA5-084E-6C449CF2F62C" name="KATEGORIJE_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>14DD7AFB-FE90-DA14-B3AD-1550FFDBB777</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEEB0B04-CB0F-7D6F-AA18-556DD78D03FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

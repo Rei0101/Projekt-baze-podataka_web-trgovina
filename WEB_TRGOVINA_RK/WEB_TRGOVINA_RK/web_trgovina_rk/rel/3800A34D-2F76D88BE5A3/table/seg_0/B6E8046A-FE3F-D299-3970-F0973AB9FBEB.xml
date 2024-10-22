@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6E8046A-FE3F-D299-3970-F0973AB9FBEB" name="KONTINENTI">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>93C8E445-6A06-F6B4-7458-F3A9CA38CB3F</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kontinenti" id="9C9346E5-D566-150E-1AAC-4817FCB6DD01">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>ED334068-DEBA-7D63-0512-3EB35A7E8D1F</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KONTINENT_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KONTINENT_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv_kontinenta" id="373429BA-606D-BAAC-7AFC-70F120CDB42F">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>2C32ED69-2E57-A230-3C6E-3B3786554B3A</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22B218EE-DDA6-B38E-FEDC-F860EB3BF1C6" name="KONTINENTI_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>7C2914EB-431F-6E1D-5305-C3E0C3438221</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C9346E5-D566-150E-1AAC-4817FCB6DD01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D91AEBD-62BA-D1EC-B289-46FBDAF72BA3" name="SKLADIŠTE">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:55:18 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SKLADIŠTA</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Skladište" id="F6DC5648-E5E8-8BFA-5858-C7C388EA8360">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:55:34 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adresa_skladišta" id="D495D452-F9FA-53DC-F719-A139A38F5B1A">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:55:53 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Grad" id="4379FAF4-4256-50A8-18C9-B1120D23B9E2">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:45:44 UTC</createdTime>
+<generatorID>864AE11E-59A9-5977-C4C6-F2D660C19814</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<referedAttribute>97EC53E9-64F4-DEE2-D02E-E346779CC5E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A1690BE-BA39-E6E6-EF7A-CCD0DEFA8DF1" name="SKLADIŠTE PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:57:13 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6DC5648-E5E8-8BFA-5858-C7C388EA8360</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9D64C2F-A3E5-5F95-FBCB-7CBBB6A9BD55" name="PROIZVOD">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:32:48 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PROIZVODI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Proizvod" id="5B33BD1F-C477-B2B1-887E-AA77FFC2F643">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:33:28 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_proizvoda" id="3DD3B3CC-DB7C-3702-6D8D-C27E106081FE">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:33:53 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis_proizvoda" id="3373E5B4-DC80-02BF-461D-1584CB672123">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:34:49 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cijena" id="064EED1B-F6D1-F155-4613-5D6D6AB823D6">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:35:07 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Kategorije" id="F609CD48-591B-B599-042A-8ED58950B223">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:35:38 UTC</createdTime>
+<generatorID>2708F6B0-AB37-D71F-D474-ADDC340C53F6</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<referedAttribute>13D1470F-F001-EFF3-B3C3-BE54390541D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA2BB9DA-5280-3232-B6CB-14F6B0821BF6" name="PROIZVOD PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:33:51 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B33BD1F-C477-B2B1-887E-AA77FFC2F643</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

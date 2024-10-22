@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DDC64C3-C226-78D7-7108-D9B5666F6A48" name="RAČUNI_PROIZVODI">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>046CA75A-C885-8D27-128C-1D4E809252B4</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<ordsAlias>racuni_proizvodi</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Stavka" id="2C42C697-FBF7-3378-A483-9EA96DC9CD49">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>2B40DDE7-067E-F9E8-5AC8-FD8B53B59452</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>STAVKA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>STAVKA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Količina" id="31621B11-1DF7-352A-115C-4FE43D8756DB">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>B0857F9F-57B2-3B1C-6988-D8244AEBF2DC</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROIZVODI_ID_Proizvod" id="70A6F8D8-4ABA-73C0-3E6C-C9B82825FB1E">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>BC7C1C4D-3353-D58C-27D8-E959B67AD15E</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7868A00E-5A08-E625-858C-B4FB3A0BF108" referredColumn="714D8492-38EB-2211-0B66-490E9636C1FD"/>
+</associations>
+</Column>
+<Column name="RAČUNI_ID_Računi" id="713820E6-B96A-C2E1-DB54-F721DC98C48F">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>D02CDB72-CF26-55E0-65E5-633FC6E5AD09</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A260FE30-9069-D818-01FE-55AAF2C326C3" referredColumn="B8C76F59-A1E2-E924-8605-AC19D3327F94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5461BFDC-65E1-1FAF-8ECF-20D0BFA1CB21" name="RAČUNI_PROIZVODI_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>7570A367-D4E0-99FC-BBBB-193E027CEAF4</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C42C697-FBF7-3378-A483-9EA96DC9CD49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="188B0E9C-128D-5665-3525-C06010D6149E" name="RAČUNI_PROIZVODI_PROIZVODI_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>4C6D1B53-97F9-22CE-270B-23545D103242</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70A6F8D8-4ABA-73C0-3E6C-C9B82825FB1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="178893C1-41B8-1AF7-EADE-E55ED8ED4C88" name="RAČUNI_PROIZVODI_RAČUNI_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>B875D18D-5DDA-8E37-D062-1D51D83147AC</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="713820E6-B96A-C2E1-DB54-F721DC98C48F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

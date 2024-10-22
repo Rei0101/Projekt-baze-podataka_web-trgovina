@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E5F641F-E607-E97F-717A-AEA4E95F621F" name="DRŽAVE_KONTINENTI">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>1D78DC81-10E5-5573-85F9-B471729C89E1</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<ordsAlias>drzave_kontinenti</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DRŽAVE_ID_Države" id="1D42706A-0CB6-7BDE-4C55-FFF02C972111">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>BB7F283F-BDCE-D7AA-2CDD-FA2E0D28DA29</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76418494-BE1E-F3C0-82FC-67E98365E377" referredColumn="A9C5B50D-82F3-D80E-B316-1D1B95CE7696"/>
+</associations>
+</Column>
+<Column name="KONTINENTI_ID_Kontinenti" id="202D38AE-C1AB-A4D7-6400-EB8B82153F06">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>5534412E-8475-D5A1-6DEE-56FA0CD3FF39</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFBCC6D0-C493-DA71-AC86-78AD1482F380" referredColumn="9C9346E5-D566-150E-1AAC-4817FCB6DD01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05291539-E2BE-D50F-1D76-986F04552750" name="DRŽAVE_KONTINENTI_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>D2460A97-E48F-6EBD-7DC1-62A97D09C895</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="202D38AE-C1AB-A4D7-6400-EB8B82153F06"/>
+<colUsage columnID="1D42706A-0CB6-7BDE-4C55-FFF02C972111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E7261C1-DEEB-B36C-E3A1-80C1A490D609" name="DRŽAVE2_KONTINENTI_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>BD37F4DB-E6CA-FDA6-C6CE-3C04795955F6</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D42706A-0CB6-7BDE-4C55-FFF02C972111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="427F03B9-7C25-9718-A10A-C2B700CA2B2C" name="DRŽAVE_KONTINENTI_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>ABF9C4D7-EED6-EC64-895F-B3134F1D19FF</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="202D38AE-C1AB-A4D7-6400-EB8B82153F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

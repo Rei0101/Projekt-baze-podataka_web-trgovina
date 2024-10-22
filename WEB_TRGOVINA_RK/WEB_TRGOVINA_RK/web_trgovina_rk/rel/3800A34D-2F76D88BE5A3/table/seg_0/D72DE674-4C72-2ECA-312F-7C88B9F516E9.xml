@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D72DE674-4C72-2ECA-312F-7C88B9F516E9" name="KORISNICI">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>6AB2CAE9-0824-BC6A-8622-5E066EA2E783</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Korisnik" id="C713BA6C-7DAF-4B3F-5FD3-1F4159A5FF97">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>3D83570B-EB56-7AF9-A1D8-D93494425DE0</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KORISNIK_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KORISNIK_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ukupno_plaćeno" id="9093DE6E-F4EE-BCAE-1188-CD9F11C200F0">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>B1893D64-AA4C-79A0-8B76-07CCD7345DAA</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kartica" id="BF45EFE0-DE96-0694-5073-FE3F74492FB7">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>050E9EBA-9286-2A62-A8EC-0F769FC12CB0</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADOVI_ID_Grad" id="02AF4978-AA5C-9E4F-1EB0-771048516E32">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>7A9D88F8-2B99-7B07-56D0-C0A918EE882F</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7F84BE0-D7C9-F810-205A-0F203A4FFA1E" referredColumn="283AB1D9-EAB4-5279-D3E8-7D0AAD80B471"/>
+</associations>
+</Column>
+<Column name="Ime" id="7F0E0215-CE25-5FDE-690B-B6F7F8B4E4A2">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>39834D08-F743-B0F2-7168-AF29C2ADFE6B</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="E607DC37-C4EB-A237-D58F-4A8FBA6CED6A">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>1E472879-ED4E-A68A-231E-5D117B8EDA64</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="D31E3E3E-7821-2756-9629-1114C925B0F9">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>27DF6245-BE15-AEDC-3756-877676E8DAEA</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="0E3CD2E8-8187-43F8-A633-1D8FD9ED8D58">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>08C39A64-3D15-0F2B-D240-BBE9AAFD6409</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OIB" id="1470F4BC-2769-1499-1A80-EEB699EDBB11">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>D74435E3-FA06-4C12-8539-17ACCC7D0FD1</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_rođenja" id="77073AF5-D495-E157-DF14-1378DD9B7739">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>406E9483-2C44-71A4-EEAB-0C28B944FC9B</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPOLOVI_ID_Spol" id="35E921E7-9CA4-A3A5-EB99-63C6C9C14877">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>65EE4882-19BA-828F-68D6-42E1B5A88790</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1DB2140-D24C-3D27-F619-704E60DB3FE6" referredColumn="7F252125-9813-0C43-E6E2-1F8C3858F79B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="430F7291-B3ED-DA9F-DEB0-A1CCEA78AA9F" name="KORISNICI_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>F58098FC-45AE-8CB0-9587-E7A4E4AF967C</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C713BA6C-7DAF-4B3F-5FD3-1F4159A5FF97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12E01CEF-39E5-A8D0-E3EF-9C865F681B91" name="KORISNICI__UN">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:44 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF45EFE0-DE96-0694-5073-FE3F74492FB7"/>
+<colUsage columnID="D31E3E3E-7821-2756-9629-1114C925B0F9"/>
+<colUsage columnID="1470F4BC-2769-1499-1A80-EEB699EDBB11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D8191B4-2056-4C1A-D857-FF5A36134C25" name="KORISNICI_GRADOVI_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>2C62F6BA-57C2-41A8-464E-0845D7052F1D</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02AF4978-AA5C-9E4F-1EB0-771048516E32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="336F5623-1585-F94E-B9B0-74B904D40665" name="KORISNICI_SPOLOVI_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>0089F404-E248-D97B-3E48-D9D20BEA84A8</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35E921E7-9CA4-A3A5-EB99-63C6C9C14877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

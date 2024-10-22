@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58B697B0-CDD0-0496-1F03-C6C8B7BE1B25" name="PROIZVOD_SKLADIŠTE">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:03:05 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PROIZVODI_SKLADIŠTA</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Proizvod" id="7A68FAB0-94B3-8B16-F57E-838C70D1B7AA">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:03:32 UTC</createdTime>
+<generatorID>CD5DD4B7-EA75-E2C7-74EF-951EED2433F2</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<referedAttribute>5B33BD1F-C477-B2B1-887E-AA77FFC2F643</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Skladište" id="C6647D0A-FDDB-1B9C-BBF1-466381996D56">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:03:40 UTC</createdTime>
+<generatorID>CAC9B632-00F4-37B3-A966-5D7CA88F347E</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<referedAttribute>F6DC5648-E5E8-8BFA-5858-C7C388EA8360</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Količina" id="0FB2D19E-6FDE-CB02-4680-B0CC4302020F">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:03:52 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C71469B-E266-AA41-DBC0-EBE2A78D930C" name="PROIZVOD_SKLADIŠTE PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:03:47 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A68FAB0-94B3-8B16-F57E-838C70D1B7AA</attributeRef>
+<attributeRef>C6647D0A-FDDB-1B9C-BBF1-466381996D56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

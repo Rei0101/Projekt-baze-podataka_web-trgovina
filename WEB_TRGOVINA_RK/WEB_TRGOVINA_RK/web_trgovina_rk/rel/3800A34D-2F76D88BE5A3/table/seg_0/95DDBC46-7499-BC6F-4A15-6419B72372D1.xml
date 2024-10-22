@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95DDBC46-7499-BC6F-4A15-6419B72372D1" name="SKLADIŠTA">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>6D91AEBD-62BA-D1EC-B289-46FBDAF72BA3</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<ordsAlias>skladista</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Skladište" id="B67884FE-6E12-6E37-5A7F-5024355EBC6A">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>F6DC5648-E5E8-8BFA-5858-C7C388EA8360</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SKLADISTE_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>SKLADISTE_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Adresa_skladišta" id="64F5CAFE-0D01-1584-6595-194C0A6B75E3">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>D495D452-F9FA-53DC-F719-A139A38F5B1A</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADOVI_ID_Grad" id="F1CC7064-D184-CFCF-3212-60A4B8458711">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>4379FAF4-4256-50A8-18C9-B1120D23B9E2</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B634FD49-6724-7258-3524-4A865DEAF791" referredColumn="283AB1D9-EAB4-5279-D3E8-7D0AAD80B471"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B61A984-36A3-DAE0-17F2-2C4F98E6437A" name="SKLADIŠTA_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>9A1690BE-BA39-E6E6-EF7A-CCD0DEFA8DF1</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B67884FE-6E12-6E37-5A7F-5024355EBC6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57F88984-C7B5-7F45-499B-E690B523F933" name="SKLADIŠTA__UN">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:16:06 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64F5CAFE-0D01-1584-6595-194C0A6B75E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F91EC1F-5C2E-6570-06DA-1C0F9FEAB75B" name="SKLADIŠTA_GRADOVI_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>864AE11E-59A9-5977-C4C6-F2D660C19814</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1CC7064-D184-CFCF-3212-60A4B8458711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

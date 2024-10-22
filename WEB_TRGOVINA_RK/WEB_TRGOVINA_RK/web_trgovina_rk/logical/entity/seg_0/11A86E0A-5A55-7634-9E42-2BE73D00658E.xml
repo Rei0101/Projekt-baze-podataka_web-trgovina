@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11A86E0A-5A55-7634-9E42-2BE73D00658E" name="GRAD">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:49:28 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>GRADOVI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Grad" id="97EC53E9-64F4-DEE2-D02E-E346779CC5E7">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:49:37 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Poštanski_broj" id="AD72EE34-E947-774A-FCC7-25584E0CBB91">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 17:50:28 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Države" id="15921C49-DEE8-EC97-34EB-0AFF84D18879">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:34:04 UTC</createdTime>
+<generatorID>0D388A41-1464-5D63-00E6-B24A114A51B5</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<referedAttribute>CA60FF01-FEB3-B7C4-32DF-86722D5C3A0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_grada" id="0BD89057-7507-A591-41A9-FCAB38511C4A">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-25 14:35:21 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="499FC517-CA2D-73F8-11DE-7397BF893123" name="GRAD PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:08:50 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97EC53E9-64F4-DEE2-D02E-E346779CC5E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

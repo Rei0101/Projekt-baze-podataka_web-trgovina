@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB22DB8A-F273-3745-4918-F8D7BA73E16E" name="PROIZVODI_SKLADIŠTA">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>58B697B0-CDD0-0496-1F03-C6C8B7BE1B25</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<ordsAlias>proizvodi_skladista</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROIZVODI_ID_Proizvod" id="D2D7AC23-936D-EF25-47A8-F032696D9EA8">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>7A68FAB0-94B3-8B16-F57E-838C70D1B7AA</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07B251E5-2ECA-8683-5756-93C8B5C39EDD" referredColumn="714D8492-38EB-2211-0B66-490E9636C1FD"/>
+</associations>
+</Column>
+<Column name="SKLADIŠTA_ID_Skladište" id="48071A13-E196-74E5-9F19-A77516BC048E">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>C6647D0A-FDDB-1B9C-BBF1-466381996D56</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07B8D7C5-467F-C188-E526-838FA360DED1" referredColumn="B67884FE-6E12-6E37-5A7F-5024355EBC6A"/>
+</associations>
+</Column>
+<Column name="Količina" id="0B9677E5-4DE9-9F42-F4A5-75BB3AC681BF">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>0FB2D19E-6FDE-CB02-4680-B0CC4302020F</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2912DDC6-CC40-28CA-C426-E6CF7F324B6F" name="PROIZVODI_SKLADIŠTA_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>2C71469B-E266-AA41-DBC0-EBE2A78D930C</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2D7AC23-936D-EF25-47A8-F032696D9EA8"/>
+<colUsage columnID="48071A13-E196-74E5-9F19-A77516BC048E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="806CA261-AF08-F100-F2FE-BD53EB219EA9" name="PROIZVODI2_SKLADIŠTA_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>CD5DD4B7-EA75-E2C7-74EF-951EED2433F2</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2D7AC23-936D-EF25-47A8-F032696D9EA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBDD099D-527D-85A7-3A2C-3F67FE77DFD4" name="PROIZVODI_SKLADIŠTA2_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>CAC9B632-00F4-37B3-A966-5D7CA88F347E</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48071A13-E196-74E5-9F19-A77516BC048E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

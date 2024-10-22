@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EB819D4-2314-3B18-25C2-10C7612380C9" name="GRADOVI">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>11A86E0A-5A55-7634-9E42-2BE73D00658E</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Grad" id="283AB1D9-EAB4-5279-D3E8-7D0AAD80B471">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>97EC53E9-64F4-DEE2-D02E-E346779CC5E7</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>GRAD_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>GRAD_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Poštanski_broj" id="BD2CB743-639B-911F-047A-A21CD96A1ADE">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>AD72EE34-E947-774A-FCC7-25584E0CBB91</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRŽAVE_ID_Države" id="F69ACCF5-0BE1-9C08-3321-FDAE25E3C9A5">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>15921C49-DEE8-EC97-34EB-0AFF84D18879</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6112132A-0634-B1F2-6409-29218586186B" referredColumn="A9C5B50D-82F3-D80E-B316-1D1B95CE7696"/>
+</associations>
+</Column>
+<Column name="Naziv_grada" id="694A38E2-2D5C-F544-50A9-A628B38FF03B">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-25 14:40:35 UTC</createdTime>
+<generatorID>0BD89057-7507-A591-41A9-FCAB38511C4A</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC5B3C8F-486B-00AF-E34D-3C8A83A9B80B" name="GRADOVI_PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>499FC517-CA2D-73F8-11DE-7397BF893123</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="283AB1D9-EAB4-5279-D3E8-7D0AAD80B471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF704F00-CF5A-8F68-F3CA-6C5C09F5C054" name="GRADOVI_DRŽAVE_FK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 22:14:05 UTC</createdTime>
+<generatorID>0D388A41-1464-5D63-00E6-B24A114A51B5</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F69ACCF5-0BE1-9C08-3321-FDAE25E3C9A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

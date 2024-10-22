@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3523AA2C-C765-5886-8733-1258DCBA419D" name="ZAPOSLENIK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:06:37 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ZAPOSLENICI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Zaposlenik" id="277514D8-1853-FCC4-C9E5-794758B0FF77">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:07:46 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Funkcija_zaposlenika" id="AAD4F116-8C8C-E640-65DD-FB10777CC2C5">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:35:53 UTC</createdTime>
+<generatorID>876B8AA5-4629-4574-8D11-6CE47AC6E0F4</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<referedAttribute>3CA2DA05-9689-C106-C8A7-25041D2B6A2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Skladište" id="C2B87050-DD66-A299-905C-21608614A71A">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:41:15 UTC</createdTime>
+<generatorID>50F2D527-FE8D-448A-BF7B-EA70CC46BB23</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<referedAttribute>F6DC5648-E5E8-8BFA-5858-C7C388EA8360</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Grad" id="B24BBC4D-6B5A-7B1A-25D2-C0E6FCC86ACF">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 21:39:33 UTC</createdTime>
+<generatorID>4E7617FE-748D-3477-A8C3-F95C9E1644FA</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<referedAttribute>97EC53E9-64F4-DEE2-D02E-E346779CC5E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="77E01CBB-A773-C555-7677-AC54A7D6A4EE">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 21:41:39 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="8484A013-A895-573F-5067-84EEE30404BC">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 21:41:39 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail" id="58B7AFE6-16B9-FC57-29B8-C8F21A0EC43D">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 21:41:39 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adresa" id="4BF104ED-7754-9949-BB56-944F3267B909">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 21:41:39 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OIB" id="8FD59C20-3D85-E6E4-9523-339209343D5F">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 21:41:39 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_rođenja" id="1BF82E34-93F5-1767-3FEB-4B74BA05006E">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 21:41:39 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Spol" id="2B0BCF1C-53B4-7498-017C-E50016CD15D6">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 21:42:13 UTC</createdTime>
+<generatorID>5B355BD3-DBBA-0861-8DD7-DCDEB98C2A40</generatorID>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<referedAttribute>CB16D29A-FDFE-2E94-4FD6-7BA591E3CC64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plaća" id="F68EFAF6-06ED-EAA3-EFF5-48E6F4F4C1A7">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-25 14:37:20 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FC89291-8115-8A15-C2BA-5E6E5B758C3A" name="ZAPOSLENIK PK">
+<createdBy>krsti</createdBy>
+<createdTime>2024-03-15 18:08:02 UTC</createdTime>
+<ownerDesignName>web_trgovina_rk</ownerDesignName>
+<engineerTo>
+<item key="3800A34D-0927-C4DC-7F6E-2F76D88BE5A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>277514D8-1853-FCC4-C9E5-794758B0FF77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
