@@ -1,6 +1,5 @@
 # Projekt-baze-podataka_web-trgovina
 
-Projekt (baza podataka) modeliran po radu web trgovine hardwarea i softwarea.
-Također sadrži i SQL upite.
+This project features a MySQL database for a hardware and software web shop.
 
-Dalje o projektu možete pročitati u priloženoj dokumentaciji.
+Modelling, SQL queries, inputs, entity attributes and the rest of the database as a whole have been described in great detail in the attached documentation (.docx file).
